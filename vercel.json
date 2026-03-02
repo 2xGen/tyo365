@@ -1,0 +1,12 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "https://tyo365.com/:path*",
+      "permanent": true,
+      "has": [
+        { "type": "host", "value": "www.tyo365.com" }
+      ]
+    }
+  ]
+}
