@@ -2,18 +2,48 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 const DEFAULT_OG_IMAGE =
-  "https://soaacpusdhyxwucjhhpy.supabase.co/storage/v1/object/public/aru365/aru365%20tours%20and%20excursions%20in%20aruba.png";
+  "https://soaacpusdhyxwucjhhpy.supabase.co/storage/v1/object/public/aru365/tokyo%20best%20tours%20and%20excursions.jpg";
 
 export const metadata: Metadata = {
   title: "2xGen LLC – Next-gen digital platforms",
   description:
-    "2xGen builds and operates digital platforms: TopTours.ai, ArubaBuddies, FactuurBaas, OneHappyFinance, AruList, and more.",
+    "2xGen builds and operates digital platforms: Tyo365, Prg365, Aru365, Lon365, Cur365, TopTours.ai, ArubaBuddies, FactuurBaas, OneHappyFinance, AruList, and more.",
   openGraph: {
-    images: [{ url: DEFAULT_OG_IMAGE, width: 1200, height: 630, alt: "Aru365 – Tours and excursions in Aruba" }],
+    images: [{ url: DEFAULT_OG_IMAGE, width: 1200, height: 630, alt: "Tyo365 – Tours and experiences in Tokyo" }],
   },
 };
 
 const platforms = [
+  {
+    name: "Tyo365",
+    description: "Best tours and experiences in Tokyo – compare, browse, and book",
+    url: "https://tyo365.com",
+    domain: "tyo365.com",
+  },
+  {
+    name: "Prg365",
+    description: "Best tours and experiences in Prague – compare, browse, and book",
+    url: "https://prg365.com",
+    domain: "prg365.com",
+  },
+  {
+    name: "Aru365",
+    description: "Best tours and experiences in Aruba – compare, browse, and book",
+    url: "https://aru365.com",
+    domain: "aru365.com",
+  },
+  {
+    name: "Lon365",
+    description: "Best tours and experiences in London – compare, browse, and book",
+    url: "https://lon365.com",
+    domain: "lon365.com",
+  },
+  {
+    name: "Cur365",
+    description: "Best tours and experiences in Curaçao – compare, browse, and book",
+    url: "https://cur365.com",
+    domain: "cur365.com",
+  },
   {
     name: "TopTours.ai",
     description: "AI-powered discovery for global travel experiences",
@@ -56,12 +86,6 @@ const platforms = [
     url: "https://mygoprofile.com",
     domain: "mygoprofile.com",
   },
-  {
-    name: "BiteReserve",
-    description: "Track exactly which guest sources send revenue, no guessing",
-    url: "https://bitereserve.com",
-    domain: "bitereserve.com",
-  },
 ];
 
 export default function TwoXGenPage() {
@@ -76,7 +100,7 @@ export default function TwoXGenPage() {
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
-            Back to Aru365
+            Back to Tyo365
           </Link>
         </div>
       </div>

@@ -4,7 +4,7 @@ import { Footer } from "@/components/Footer";
 
 const SITE_URL = "https://tyo365.com";
 const DEFAULT_OG_IMAGE =
-  "https://soaacpusdhyxwucjhhpy.supabase.co/storage/v1/object/public/tyo365/tyo365%20tours%20and%20experiences%20in%20tokyo.png";
+  "https://soaacpusdhyxwucjhhpy.supabase.co/storage/v1/object/public/aru365/tokyo%20best%20tours%20and%20excursions.jpg";
 
 export const metadata: Metadata = {
   title: "Terms and Conditions | Tyo365",

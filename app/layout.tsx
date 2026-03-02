@@ -25,10 +25,10 @@ const playfair = Playfair_Display({
 
 const SITE_URL = "https://tyo365.com";
 const DEFAULT_OG_IMAGE =
-  "https://soaacpusdhyxwucjhhpy.supabase.co/storage/v1/object/public/aru365/Top%20tours%20in%20tokyo.png";
-const defaultTitle = "Tyo365 – Book Best Tours in Tokyo | Food, Culture, Day Trips & Experiences";
+  "https://soaacpusdhyxwucjhhpy.supabase.co/storage/v1/object/public/aru365/tokyo%20best%20tours%20and%20excursions.jpg";
+const defaultTitle = "Tyo365 – Best Tours & Experiences in Tokyo";
 const defaultDescription =
-  "Tokyo's dedicated platform for booking the best tours and experiences. Find, compare, and book food tours, cultural experiences, day trips, and more — all in one place.";
+  "Find and book the best tours in Tokyo. Food tours, day trips, culture & experiences. Compare and book in one place.";
 
 const organizationSchema = {
   "@context": "https://schema.org",
